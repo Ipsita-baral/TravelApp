@@ -1,0 +1,88 @@
+const places = [
+    {
+        id:'1',
+        name:'Paradise on Earth Found',
+        location:'Kashmir',
+        image:require('../assets/images/Kashmir.webp'),
+        details:'One of the main tourist places in India is Kashmir which lies in the northernmost region of the country and is blessed with surreal natural beauty and myriad adventures. Kashmir offers two different experiences, one during the summers when the whole valley looks enthralling with its lush-green landscape and snow-capped mountains in the backdrop and other during the winter season when it is all covered with white snow.',
+    },
+    {
+        id:'2',
+        name:' Land of Royal Heritage',
+        location:'Rajasthan',
+        image:require('../assets/images/Rajasthan.webp'),
+        details:'One of the most culturally rich places to go in India is undoubtedly Rajasthan which is famous for its rich heritage, magnificent palaces and insightful history. The vibrant and quirky markets of Rajasthan, majestic forts, welcoming people and lively culture will lure you to spend more and more time in this state. It also makes for an ideal honeymoon destination as there are a plethora of romantic activities to enjoy here. From vast deserts to enticing lakes and hills, Rajasthan has everything in its lap to offer to the tourists.',
+    },
+    {
+        id:'3',
+        name:'Beauty in the Himalayas',
+        location:'Sikkim',
+        image:require('../assets/images/Sikkim.webp'),
+        details:'The north-eastern part of India is no less than a paradise on Earth when it comes to natural beauty and tranquility. Blessed with picturesque landscape, Sikkim is one destination which offers a soul-satisfying experience to a soul looking for rejuvenation. One of the main holiday destinations in India, Sikkim is visited by many tourists who are looking for an escape into nature, longing for an adventure or by honeymooners who love serenity. It is also a haven for exotic wildlife and also for endless adventure activities.',
+    },
+    {
+        id:'4',
+        name:'Scotland of India',
+        location:'Coorg',
+        image:require('../assets/images/Coorg.webp'),
+        details:'Coorg is known as a coffee producing hill station located among the mountains in Karnataka with the misty landscapes. It is known for its amazing green hills and streams, which makes it the top tourists places in India to visit for its culture.',
+    },
+    {
+        id:'5',
+        name:'Beach Paradise of India',
+        location:'Goa',
+        image:require('../assets/images/Goa-india.webp'),
+        details:'Goa, with its scheduled beaches, majestic waterfalls, and happening nightlife, is one of the best holiday destinations to visit in India. From being the hub for backpackers to the best place for bachelor parties in the world, Goa is on the list of every vacationer who loves beaches. While Goa is a thriving attraction, where there are clubs and beach parties organized, very few people know that can be the most peaceful and serene place too. There are many offbeat places and beaches that are now crowded with travelers for enjoying the mystical sunset.',
+    },
+    {
+        id:'6',
+        name:'Heavenly Abode of Buddhism',
+        location:'Tawang',
+        image:require('../assets/images/Tawang.webp'),
+        details:'Backpackers out there can now get ready for discovering one of the most surreal and captivating tourist places in India, Tawang. From the rocky and rugged cliffs to the mountains, the crystal white rivers, and old monasteries from the 17th century, Tawang is blessed with tranquility and serenity. Located in Arunachal Pradesh, Tawang is one of the best summer destinations in India you can visit to escape the hot sun. The pleasant weather and the enthralling panorama of nature have made Tawang a hidden gem of the northeast.',
+    },
+    {
+        id:'7',
+        name:' Temple City of India',
+        location:'Madurai',
+        image:require('../assets/images/Madurai.webp'),
+        details:'The old historic temples and the rustic charm of this city in Tamil Nadu is a magnificent tourist attraction in India. Known as the Lotus city, Madurai is built in the shape of a lotus, where you will find an incredible architectural beauty to admire. Today it is the cultural capital of Tamil Nadu and one of the most beautiful places to visit in Asia. Located along the banks of River Vaigai, it is one of the most beautifully designed cities in India.',
+    },
+    {
+        id:'8',
+        name:' Golden City of Spirit',
+        location:'Amritsar',
+        image:require('../assets/images/Amritsar.webp'),
+        details:'One of the greatest destinations in India is Amritsar, a sacred city established by Guru Ramdas Ji, the fourth Sikh Guru. For obvious reasons, the Golden Temple is the first thing that comes to mind when someone intends to visit Amritsar. When Guru Arjan Sahib realized he wanted to build a house of worship for the Sikhs, it was born. Jallianwala Bagh, a historic monument with a significant role in Indian history, comes in second on the list. ',
+    },
+    {
+        id:'9',
+        name:' Queen of Hill Stations',
+        location:'Shimla',
+        image:require('../assets/images/Shimla.webp'),
+        details:'The queen of Northern Hills, Shimla is a destination for every vacationer. Lying amidst the snow-capped mountains, the deodar forest, and the lush green beauty of the pine, Shimla is one of the best holiday destinations in India.',
+    },
+    {
+        id:'10',
+        name:'Spiritual Soul of India',
+        location:'Varanasi',
+        image:require('../assets/images/Varanasi.webp'),
+        details:'Adorned by the beautiful ghats and a spiritual vibe, Varanasi is one of the most vibrant and charismatic places to visit in India. It is often mistaken that spiritual places are meant to be explored after a certain age, but when it comes to beauty and peace, Varanasi is a destination, listed on top of every traveler’s bucket list. The calm and tranquil ghats that are illuminated by thousands of Diya during the evening and morning Arti is a divine visual to admire.',
+    },
+    {
+        id:'11',
+        name:' Golden City of Sands',
+        location:'Jaisalmer',
+        image:require('../assets/images/Jaisalmer.webp'),
+        details:'The old forts, desert oceans, and enthralling cultural beauty of Rajasthan have made Jaisalmer, one of the best tourist attractions in India. From discovering its art and architecture to the safari in the desert, Jaisalmer offers a memorable vacation.',
+    },
+    {
+        id:'12',
+        name:'Strawberry Hills of India',
+        location:'Mahabaleshwar',
+        image:require('../assets/images/Mahabaleshwar.webp'),
+        details:'When you think about Mahabaleshwar, cherries and strawberries come to mind. The lush hill station of Maharasthra, tucked away in the innards of the Sahaydri range. Places to visit in Mahabaleshwar are a sanctuary for travelers hoping to escape the stress of everyday life. Ever since ancient times, its splendor has drawn people seeking the ideal summer getaway. The city is home to historic temples, boarding schools, beautifully landscaped deep forests,',
+    },
+]
+
+export default places;
